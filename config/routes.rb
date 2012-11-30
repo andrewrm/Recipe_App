@@ -1,4 +1,8 @@
 RecipesApp::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/contact"
+
   resources :reviews
 
   resources :recipes
