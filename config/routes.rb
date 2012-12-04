@@ -1,4 +1,10 @@
 RecipesApp::Application.routes.draw do
+  get "get_recipe/show"
+
+  get "content/all"
+
+  get "content/recipe"
+
   get "pages/home"
 
   get "pages/contact"
